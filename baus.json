@@ -1,0 +1,66 @@
+{
+  "baus": {
+    "bau_comum": {
+      "nome": "Baú comum",
+      "descricao": "Um baú repleto de tesouros raríssimos.",
+      "raridade": "comum",
+      "garantido": {
+        "frutas": [],
+        "espadas": [],
+        "equipamentos": []
+        
+      },
+      "aleatorio": {
+        "frutas": ["bomu_bomu"],
+        "espadas": ["espada_001"],
+        "equipamentos": []
+      },
+      "quantidade": {
+        "berries": [150, 300],
+        "xp": [10, 50],
+        "xpfruit": [5, 10],
+        "materiais": [2, 5]
+      },
+      "critico": {
+        "chance": 0.1,
+        "bonusMin": 1,
+        "bonusMax": 1
+      },
+      "ticketsMultiplicador": {
+        "chance": 0.90,
+        "valores": [10, 20, 30, 50]  
+      }
+    },
+    "bau_raro": {
+      "nome": "Bau raro",
+      "descricao": "Um baú repleto de tesouros raríssimos.",
+      "raridade": "raro",
+      "garantido": {
+        "frutas": [],
+        "espadas": [],
+        "equipamentos": []
+        
+      },
+      "aleatorio": {
+        "frutas": ["bomu_bomu", "gomu_gomu"],
+        "espadas": ["espada_001", "espada_001"],
+        "equipamentos": []
+      },
+      "quantidade": {
+        "berries": [200, 450],
+        "xp": [15, 80],
+        "xpfruit": [10, 20],
+        "materiais": [3, 8]
+      },
+      "critico": {
+        "chance": 0.1,
+        "bonusMin": 1,
+        "bonusMax": 2
+      },
+      "ticketsMultiplicador": {
+        "chance": 0.10,
+        "valores": [10, 20, 30, 50]  
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "habilidades": [
+    {
+      "id": "haki",
+      "nome": "haki do armamento",
+      "categoria": "habilidade",
+      "raridade": "raro",
+      "nivel": 1,
+      "hab": [
+        {
+          "nome": "haki",
+          "tipo": "ofensiva",
+          "dano": 50,
+          "custoStamina": 15,
+          "cooldown": 10,
+          "stun": 0,
+          "descricao": "aumenta seu ataque físico em 3% por nível ",
+          "nivel": 1
+      
+          },
+        {
+          "nome": "restauração de vida",
+          "tipo": "ofensiva",
+          "dano": 0,
+          "cura": 15,
+          "custoStamina": 15,
+          "cooldown": 5,
+          "stun": 0,
+          "descricao": "restaura seu corpo com celulas avançanda pra recuperar vida",
+          "nivel": 1
+      
+          }
+    ]
+    },
+    {
+      "id": "cura",
+      "nome": "cura avançada",
+      "categoria": "habilidade",
+      "raridade": "raro",
+      "nivel": 1,
+      "hab": [
+        {
+          "nome": "restauração de vida",
+          "tipo": "ofensiva",
+          "dano": 0,
+          "cura": 15,
+          "custoStamina": 15,
+          "cooldown": 5,
+          "stun": 0,
+          "descricao": "restaura seu corpo com celulas avançanda pra recuperar vida",
+          "nivel": 1
+      
+          }
+    ]
+    }
+    ]
+    
+}

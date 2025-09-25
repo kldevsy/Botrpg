@@ -1,0 +1,205 @@
+{
+  "bosses": [
+    {
+      "id": "arlong_event",
+      "nome": "Arlong",
+      "descricao": "O tritão que domina os mares com sua força bruta e mandíbula afiada.",
+      "vida": 650000,
+      "tempoLimite": 3600,
+      "chanceAparicao": 50,
+      "notificavel": true,
+      "habilidades": [
+        {
+          "nome": "Mandíbula Mortal",
+          "dano": 700,
+          "descricao": "Arlong morde com força descomunal.",
+          "custoStamina": 10,
+          "cooldown": 2,
+          "stun": false
+        },
+        {
+          "nome": "Arremesso de Dentes",
+          "dano": 1000,
+          "descricao": "Dispara seus dentes como projéteis cortantes.",
+          "custoStamina": 8,
+          "cooldown": 3,
+          "stun": true
+        }
+      ],
+      "drops": {
+        "berries": { "min": 5000, "max": 7000 },
+        "xp": { "min": 650, "max": 1700 },
+        "xpfruit": { "min": 200, "max": 450 },
+        "equipamentos": ["espada_serra", "armadura_tritao"],
+        "frutas": [],
+        "baus": ["bau_comum", "bau_raro"]
+      }
+    },
+    {
+      "id": "buggy_event",
+      "nome": "Buggy o Palhaço",
+      "descricao": "O palhaço do caos, mestre da Bara Bara no Mi.",
+      "vida": 300000,
+      "tempoLimite": 3600,
+      "chanceAparicao": 25,
+      "notificavel": true,
+      "habilidades": [
+        {
+          "nome": "Corte Flutuante",
+          "dano": 560,
+          "descricao": "Divide seu corpo e corta de longe.",
+          "custoStamina": 6,
+          "cooldown": 1,
+          "stun": false
+        },
+        {
+          "nome": "Explosão de Palhaço",
+          "dano": 890,
+          "descricao": "Joga bombas como se fossem brinquedos.",
+          "custoStamina": 12,
+          "cooldown": 3,
+          "stun": true
+        }
+      ],
+      "drops": {
+        "berries": { "min": 3000, "max": 5000 },
+        "xp": { "min": 500, "max": 1500 },
+        "xpfruit": { "min": 100, "max": 300 },
+        "equipamentos": ["capa_de_palhaco"],
+        "frutas": [],
+        "baus": ["bau_comum"]
+      }
+    },
+    {
+      "id": "barba_branca_event",
+      "nome": "Barba Branca",
+      "descricao": "O homem mais forte do mundo, portador do poder de terremotos.",
+      "vida": 1500000,
+      "tempoLimite": 3600,
+      "chanceAparicao": 5,
+      "notificavel": true,
+      "formaAlternativa": {
+        "nome": "Barba Branca (Modo Fúria)",
+        "vidaExtra": 1000000,
+        "descricao": "Com seus últimos suspiros, Barba Branca libera sua fúria total.",
+        "habilidades": [
+          {
+            "nome": "Terremoto Colossal",
+            "dano": 2300,
+            "descricao": "Racha o chão e desestabiliza todos os inimigos.",
+            "custoStamina": 25,
+            "cooldown": 3,
+            "stun": true
+          }
+        ]
+      },
+      "habilidades": [
+        {
+          "nome": "Soco Sísmico",
+          "dano": 1500,
+          "descricao": "Desencadeia ondas sísmicas com um soco.",
+          "custoStamina": 15,
+          "cooldown": 2,
+          "stun": true
+        },
+        {
+          "nome": "Tremor Total",
+          "dano": 1900,
+          "descricao": "Faz o campo inteiro tremer com poder absoluto.",
+          "custoStamina": 20,
+          "cooldown": 3,
+          "stun": false
+        }
+      ],
+      "drops": {
+        "berries": { "min": 7500, "max": 10000 },
+        "xp": { "min": 1200, "max": 1500 },
+        "xpfruit": { "min": 400, "max": 850 },
+        "equipamentos": ["bisento_lendario", "manto_barba_branca"],
+        "frutas": [],
+        "baus": ["bau_epico"]
+      }
+    },
+    {
+      "id": "doflamingo_event",
+      "nome": "Donquixote Doflamingo",
+      "descricao": "O rei dos fios, cruel e manipulador.",
+      "vida": 1000000,
+      "tempoLimite": 3600,
+      "chanceAparicao": 10,
+      "notificavel": true,
+      "habilidades": [
+        {
+          "nome": "Parasita",
+          "dano": 1200,
+          "descricao": "Controla os inimigos com fios invisíveis.",
+          "custoStamina": 10,
+          "cooldown": 2,
+          "stun": true
+        },
+        {
+          "nome": "Fios Cortantes",
+          "dano": 1650,
+          "descricao": "Cria fios afiados que cortam tudo ao redor.",
+          "custoStamina": 15,
+          "cooldown": 3,
+          "stun": false
+        }
+      ],
+      "drops": {
+        "berries": { "min": 6000, "max": 8000 },
+        "xp": { "min": 1000, "max": 2200 },
+        "xpfruit": { "min": 300, "max": 650 },
+        "equipamentos": ["oculos_dofla", "casaco_rosado"],
+        "frutas": [],
+        "baus": ["bau_raro"]
+      }
+    },
+    {
+      "id": "enel_event",
+      "nome": "enel",
+      "descricao": "deus do trovão e divindade de skypia",
+      "vida": 800000,
+      "tempoLimite": 3600,
+      "chanceAparicao": 15,
+      "notificavel": true,
+      "habilidades": [
+        {
+          "nome": "el thor",
+          "dano": 900,
+          "descricao": "Enel concentra um grande aglomerado de eletricidade acima de sua meta, então usa-o para enviar um enorme e poderoso raio para baixo do céu, fritando o alvo azarado",
+          "custoStamina": 10,
+          "cooldown": 2,
+          "stun": false,
+          "efeitoEspecial": {
+    "tipo": "shock",
+    "chanceFalharProximoTurno": 0.3,
+    "turnos": 1
+  }
+        },
+        {
+          "nome": "Gloam Paddling",
+          "dano": 1200,
+          "descricao": "Enel usa seus poderes elétricos para aquecer e derreter o metal nas proximidades e, em seguida, remodelá-lo em qualquer coisa que ele deseja.",
+          "custoStamina": 20,
+          "cooldown": 4,
+          "stun": false,
+          "efeitoEspecial": {
+    "tipo": "shock",
+    "chanceFalharProximoTurno": 0.5,
+    "turnos": 1
+  }
+        }
+      ],
+      "drops": {
+        "berries": { "min": 5700, "max": 8000 },
+        "xp": { "min": 800, "max": 2000 },
+        "xpfruit": { "min": 275, "max": 500 },
+        "equipamentos": ["tambores Tomoe"],
+        "espadas": ["pole v1"],
+        "frutas": [],
+        "baus": ["bau_raro"]
+      }
+    }
+  ]
+}

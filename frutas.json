@@ -1,0 +1,292 @@
+{
+  "frutas": [
+    {
+      "id": "gomu_gomu",
+      "nome": "Gomu Gomu no Mi",
+      "tipo": "Paramecia",
+      "descricao": "Transforma o corpo em borracha.",
+      
+      "transformação": [
+        {
+          "nome": "gear second",
+          "tipo": "form",
+          "dano": 0,
+          "defesa": 35,
+          "imagem": "https://media.tenor.com/8C3V5RglXvUAAAAM/gear-second-gear2.gif",
+          "buff": 10,
+          "custoStamina": 200,
+          "cooldown": 5,
+          "stun": 0,
+          "descricao": "acelera o fluxo do sangue em todas as partes do corpo ou selecionados, a fim de lhes fornecer mais oxigênio e nutrientes, tornando-o muito mais rápido e mais forte",
+          "nivel": 30
+        }
+      ],
+      "habilidades": [
+        {
+          "nome": "Gomu Gomu no Pistol",
+          "tipo": "ofensiva",
+          "dano": 20,
+          "defesa": 35,
+          "custoStamina": 12,
+          "cooldown": 2,
+          "stun": 0,
+          "descricao": "Dano físico de longo alcance",
+          "nivel": 1
+        },
+        {
+          "nome": "Gomu Gomu no Bazooka",
+          "tipo": "ofensiva",
+          "dano": 35,
+          "custoStamina": 15,
+          "defesa": 35,
+          "cooldown": 3,
+          "stun": 0,
+          "descricao": "estica os dois braços para trás, e depois lança-os para a frente, atingindo o seu adversário com os dois instantaneamente com uma greve de palma dupla aberta com ambas as mãos",
+          "nivel": 5
+        },
+        {
+          "nome": "Gomu Gomu no Muchi",
+          "tipo": "ofensiva",
+          "dano": 50,
+          "custoStamina": 30,
+          "defesa": 35,
+          "cooldown": 2,
+          "stun": 0,
+          "descricao": "estica a perna e chuta em um grande círculo, atingindo vários inimigos",
+          "nivel": 9
+        },
+        {
+          "nome": "Gomu Gomu no Rifle",
+          "tipo": "ofensiva",
+          "dano": 75,
+          "custoStamina": 60,
+          "defesa": 35,
+          "cooldown": 5,
+          "stun": 1,
+          "descricao": "estica os dois braços para trás, e depois lança-os para a frente, atingindo o seu adversário com os dois instantaneamente com uma greve de palma dupla aberta com ambas as mãos",
+          "nivel": 15
+        },
+        {
+          "nome": "Gomu Gomu no Gatling",
+          "tipo": "ofensiva",
+          "dano": 100,
+          "custoStamina": 45,
+          "defesa": 35,
+          "cooldown": 4,
+          "stun": 0,
+          "descricao": "Ataques múltiplos rápidos",
+          "nivel": 20
+        }
+      ],
+      "chance": 40
+    },
+    {
+      "id": "goro_goro",
+      "nome": "Goro Goro no Mi",
+      "tipo": "logia",
+      "descricao": "você consegue usar todas propriedades do relâmpago.",
+      "transformação": [
+        {
+          "nome": "rajin form",
+          "tipo": "form",
+          "dano": 0,
+          "defesa": 25,
+          "imagem": "https://static.wikia.nocookie.net/onepiece/images/c/c0/Enel_Armadura_de_2_milh%C3%B5es_de_volts.png/revision/latest?cb=20151022012700&path-prefix=pt",
+          "buff": 50,
+          "custoStamina": 60,
+          "cooldown": 10,
+          "stun": 0,
+          "descricao": "voce eleva seus limites entrando na forma rajin deus do trovão",
+          "nivel": 1
+        }
+      ],
+      "habilidades": [
+        {
+          "nome": "Million Volt Vari",
+          "tipo": "ofensiva",
+          "dano": 100,
+          "custoStamina": 15,
+          "cooldown": 2,
+          "stun": 1,
+          "descricao": "Dano físico de longo alcance",
+          "nivel": 1,
+          "efeitoEspecial": {
+    "tipo": "shock",
+    "chanceFalharProximoTurno": 0.3,
+    "turnos": 1
+  }
+        },
+        {
+          "nome": "El Thor",
+          "tipo": "ofensiva",
+          "dano": 150,
+          "custoStamina": 50,
+          
+          "cooldown": 5,
+          "stun": 1,
+          "descricao": "você concentra um grande aglomerado de eletricidade acima de sua meta, então usa-o para enviar um enorme e poderoso raio para baixo do céu, fritando o alvo azarado.",
+          "nivel": 1
+        }
+      ],
+      "chance": 20
+    },
+    {
+      "id": "mera_mera",
+      "nome": "Mera Mera no Mi",
+      "tipo": "Logia",
+      "descricao": "Permite controlar e se tornar fogo.",
+      "habilidades": [
+        {
+          "nome": "Higan",
+          "tipo": "ofensiva",
+          "dano": 22,
+          "custoStamina": 10,
+          "cooldown": 2,
+          "stun": 0,
+          "descricao": "Apontando os dedos indicador e médio de ambas as mãos como armas para um oponente, após transforma as pontas dos dedos em chamas e atira balas feitas de fogo deles. ",
+          "nivel": 1,
+          "burn": {
+            "danoPorTurno": 2,
+            "turnos": 3
+          }
+        },
+        {
+          "nome": "Hiken",
+          "tipo": "ofensiva",
+          "dano": 30,
+          "custoStamina": 15,
+          "cooldown": 3,
+          "stun": 0,
+          "descricao": "transforma seu punho em chamas e o lança como uma coluna de fogo em seu alvo",
+          "nivel": 5,
+          "burn": {
+            "danoPorTurno": 10,
+            "turnos": 2
+          }
+        },
+        {
+          "nome": "Hibashira",
+          "tipo": "ofensiva",
+          "dano": 45,
+          "custoStamina": 25,
+          "cooldown": 3,
+          "stun": 0,
+          "descricao": "atira as chamas coletadas para cima, destruindo um alvo acima dele.",
+          "nivel": 10,
+          "burn": {
+            "danoPorTurno": 30,
+            "turnos": 3
+          }
+          },
+        {
+          "nome": "Kagero",
+          "tipo": "ofensiva",
+          "dano": 65,
+          "custoStamina": 37,
+          "cooldown": 4,
+          "stun": 0,
+          "descricao": "dispara uma corrente de fogo da palma da mão",
+          "nivel": 15,
+          "burn": {
+            "danoPorTurno": 10,
+            "turnos": 3
+          }
+          },
+          {
+          "nome": "Dai Enkai: Entei",
+          "tipo": "ofensiva",
+          "dano": 120,
+          "custoStamina": 50,
+          "cooldown": 6,
+          "stun": 0,
+          "descricao": "transforma fogo em uma gigantesca bola de fogo parecida com o sol e a arremessa em seu oponente para tentar destruí-lo",
+          "nivel": 25,
+          "burn": {
+            "danoPorTurno": 50,
+            "turnos": 4
+          }
+        }
+      ],
+      "chance": 35
+    },
+    {
+      "id": "bomu_bomu",
+      "nome": "Bomu Bomu no Mi",
+      "tipo": "Paramecia",
+      "descricao": "Permite criar explosões com qualquer parte do corpo.",
+      "habilidades": [
+        {
+          "nome": "Nose Fancy Cannon",
+          "tipo": "ofensiva",
+          "dano": 10,
+          "custoStamina": 5,
+          "cooldown": 1,
+          "stun": 0,
+          "descricao": "arranca um muco seco de seu nariz e o joga no oponente. A meleca explode ao entrar em contato com o oponente e cria uma explosão surpreendentemente grande",
+          "nivel": 1
+        },
+        {
+          "nome": "Kick Bomb",
+          "tipo": "ofensiva",
+          "dano": 25,
+          "custoStamina": 15,
+          "cooldown": 2,
+          "stun": 0,
+          "descricao": "chuta seu oponente, detonando sua perna com o impacto",
+          "nivel": 3
+        },
+        {
+          "nome": "Zenshin Kibaku",
+          "tipo": "ofensiva",
+          "dano": 45,
+          "custoStamina": 20,
+          "cooldown": 3,
+          "stun": 1,
+          "descricao": "agarra seu oponente no abraço então detona seu corpo inteiro de uma só vez",
+          "nivel": 7
+        },
+        {
+          "nome": "Breeze Breath Bomb",
+          "tipo": "ofensiva",
+          "dano": 65,
+          "custoStamina": 30,
+          "cooldown": 5,
+          "stun": 0,
+          "descricao": "sopra nas câmaras de um revolver, em seguida, dispara a respiração enquanto invisíveis balas explodindo",
+          "nivel": 10
+        }
+      ],
+      "chance": 85
+    },
+    {
+      "id": "yami_yami",
+      "nome": "Yami Yami no Mi",
+      "tipo": "Logia",
+      "raridade": "raro",
+      "descricao": "Permite controlar a escuridão, podendo absorver tudo.",
+      "habilidades": [
+        {
+          "nome": "Kurouzu",
+          "tipo": "ofensiva",
+          "dano": 25,
+          "custoStamina": 10,
+          "cooldown": 2,
+          "stun": 1,
+          "descricao": "Estendendo um braço em direção ao seu oponente, ativa o poder da gravidade de sua escuridão para puxá-los para suas mãos e esmagalos",
+          "nivel": 1
+        },
+        {
+          "nome": "Buraco Negro",
+          "tipo": "ofensiva",
+          "dano": 40,
+          "custoStamina": 25,
+          "cooldown": 3,
+          "stun": 0,
+          "descricao": "espalha sua escuridão por uma grande área e, assim como um buraco negro real, engole qualquer coisa que escolher. Quando engolido, a pessoa ou objeto é submetido a uma grande quantidade de gravidade e esmagado",
+          "nivel": 5
+        }
+      ],
+      "chance": 50
+    }
+  ]
+}

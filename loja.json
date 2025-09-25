@@ -1,0 +1,166 @@
+{
+  "cura": [
+    {
+      "id": "curabasico",
+      "nome": "Frasco de cura básico",
+      "descricao": "cura 50 de vida",
+      "preco": 200,
+      "efeito": 50
+    },
+    {
+      "id": "curararo",
+      "nome": "Frasco de cura raro",
+      "descricao": "cura 150 de vida",
+      "preco": 500,
+      "efeito": 150
+    },
+    {
+      "id": "curaavancado",
+      "nome": "Frasco de cura avançado",
+      "descricao": "cura 50% da vida máxima",
+      "preco": 900,
+      "efeito": 50
+    },
+    {
+      "id": "carneassada",
+      "nome": "Carne assada",
+      "descricao": "cura 100% de vida",
+      "preco": 1500,
+      "efeito": 100
+    },
+    {
+      "id": "pilulascomida",
+      "nome": "Pílulas de comida",
+      "descricao": "regenera vida e energia automaticamente durante 30 minutos",
+      "preco": 3000,
+      "efeito": 0
+    }
+  ],
+  "stamina": [
+    {
+      "id": "staminabasico",
+      "nome": "Frasco de energia",
+      "descricao": "recupera 50 de stamina",
+      "preco": 200,
+      "efeito": 50
+    },
+    {
+      "id": "staminararo",
+      "nome": "Frasco de energia raro",
+      "descricao": "recupera 150 de estamina",
+      "preco": 500,
+      "efeito": 150
+    },
+    {
+      "id": "staminaavancado",
+      "nome": "Frasco de energia avançado",
+      "descricao": "recupera 50% da stamina máxima",
+      "preco": 900,
+      "efeito": 50
+    },
+    {
+      "id": "sake",
+      "nome": "Barril de saquê",
+      "descricao": "recupera 100% de stamina",
+      "preco": 1500,
+      "efeito": 100
+    },
+    {
+      "id": "pilulascomida",
+      "nome": "Pílulas de comida",
+      "descricao": "regenera vida e energia automaticamente durante 30 minutos",
+      "preco": 3000,
+      "efeito": 0
+    }
+  ],
+  "buffxp": [
+    {
+      "id": "buffxpb",
+      "nome": "poção XP básico",
+      "descricao": "aumenta o ganho de XP temporário\nAumento: 1.20x\nDuração: 30 minutos",
+      "preco": 10000,
+      "aumento": 1.20
+    },
+    {
+      "id": "buffxpr",
+      "nome": "poção XP raro",
+      "descricao": "aumenta o ganho de XP temporário\nAumento: 1.50x\nDuração: 30 minutos",
+      "preco": 50000,
+      "aumento": 1.50
+    },
+    {
+      "id": "buffxpa",
+      "nome": "poção XP avançado",
+      "descricao": "aumenta o ganho de XP temporário\nAumento: 1.75x\nDuração: 30 minutos",
+      "preco": 75000,
+      "aumento": 1.75
+    },
+    {
+      "id": "buffxpp",
+      "nome": "poção XP aprimorado",
+      "descricao": "aumenta o ganho de XP temporário\nAumento: 2x\nDuração: 30 minutos",
+      "preco": 100000,
+      "aumento": 2
+    }
+  ],
+  "buffxpfruta": [
+    {
+      "id": "bufffruitb",
+      "nome": "poção XPfruit básico",
+      "descricao": "aumenta o ganho de XP de frutas temporário\nAumento: 1.20x\nDuração: 30 minutos",
+      "preco": 10000,
+      "aumento": 1.20
+    },
+    {
+      "id": "bufffruitr",
+      "nome": "poção XPfruta raro",
+      "descricao": "aumenta o ganho de XP de frutas temporário\nAumento: 1.50x\nDuração: 30 minutos",
+      "preco": 50000,
+      "aumento": 1.50
+    },
+    {
+      "id": "bufffruita",
+      "nome": "poção XPfruta avançado",
+      "descricao": "aumenta o ganho de XP de frutas temporário\nAumento: 1.75x\nDuração: 30 minutos",
+      "preco": 75000,
+      "aumento": 1.75
+    },
+    {
+      "id": "bufffruitp",
+      "nome": "poção XPfruta aprimorado",
+      "descricao": "aumenta o ganho de XP de frutas temporário\nAumento: 2x\nDuração: 30 minutos",
+      "preco": 100000,
+      "aumento": 2
+    }
+  ],
+  "buffberries": [
+    {
+      "id": "buffberriesb",
+      "nome": "poção berries básico",
+      "descricao": "aumenta o ganho de berries temporário\nAumento: 1.20x\nDuração: 30 minutos",
+      "preco": 10000,
+      "aumento": 1.20
+    },
+    {
+      "id": "buffberriesr",
+      "nome": "poção berries raro",
+      "descricao": "aumenta o ganho de berries temporário\nAumento: 1.50x\nDuração: 30 minutos",
+      "preco": 50000,
+      "aumento": 1.50
+    },
+    {
+      "id": "buffberriesa",
+      "nome": "poção berries avançado",
+      "descricao": "aumenta o ganho de berries temporário\nAumento: 1.75x\nDuração: 30 minutos",
+      "preco": 75000,
+      "aumento": 1.75
+    },
+    {
+      "id": "buffberriesp",
+      "nome": "poção berries aprimorado",
+      "descricao": "aumenta o ganho de berries temporário\nAumento: 2x\nDuração: 30 minutos",
+      "preco": 100000,
+      "aumento": 2
+    }
+  ]
+}

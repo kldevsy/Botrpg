@@ -1,0 +1,38 @@
+{
+  "quests": [
+    {
+      "id": "quest_001",
+      "nome": "a caça de bandidos",
+      "descricao": "Você deve derrotar o Ladrão para proteger a vila.",
+      "npcId": ["npc_001"],
+      "bau": "normal",
+      "nivel": 1,
+      "recompensa": {
+        "xp": 25,
+        "berries": 150
+      }
+    },
+    {
+      "id": "quest_002",
+      "nome": "invasores a solta",
+      "descricao": "alguns invasores tão roubando recursos da ilha derrote 3 invasor para proteger a vila.",
+      "npcId": ["npc_002", "npc_002", "npc_002"],
+      "bau": "comum",
+      "recompensa": {
+        "xp": 45,
+        "berries": 200
+      }
+    },
+    {
+      "id": "quest_003",
+      "nome": "chefe da marinha",
+      "descricao": "chefe da marinha anda causando problemas na Villa derrote ele.",
+      "npcId": ["npc_003"],
+      "bau": "comum",
+      "recompensa": {
+        "xp": 75,
+        "berries": 350
+      }
+    }
+  ]
+}

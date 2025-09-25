@@ -1,0 +1,97 @@
+{
+  "npcs": [
+    {
+      "id": "npc_001",
+      "nome": "bandido",
+      "vida": 100,
+      "dano": 20,
+      "descricao": "Um bandido que rouba dos viajantes.",
+      "xpfruit": 10,
+      "anti": "logia",
+      "habilidades": [
+        {
+          "nome": "Golpe afiado",
+          "descricao": "Golpe direto que causa dano considerável.",
+          "tipo": "ofensiva",
+          "dano": 20,
+          "custoStamina": 10,
+          "cooldown": 1,
+          "stun": false
+        }
+      ],
+      "recompensa": {
+        "xp": 5,
+        "berries": 20
+      },
+      "questId": "quest_001",
+      "falaInicio": "Você está prestes a sentir o meu golpe, forasteiro!",
+      "falaAtaque": "Tome isso, imbecil!",
+      "falaDerrota": "Ahhh... eu subestimei você...!"
+    },
+    {
+      "id": "npc_002",
+      "nome": "invasor",
+      "vida": 150,
+      "dano": 25,
+      "descricao": "Um baderneiro que invade villas pra roubar ",
+      "xpfruit": 22,
+      "anti": "logia",
+      "habilidades": [
+        {
+          "nome": "tiro certeiro",
+          "descricao": "tiro rápido que alveja o alvo",
+          "tipo": "ofensiva",
+          "dano": 40,
+          "custoStamina": 15,
+          "cooldown": 2,
+          "stun": 1
+        }
+      ],
+      "recompensa": {
+        "xp": 15,
+        "berries": 45
+      },
+      "questId": "quest_002",
+      "falaInicio": "Prepare-se para me passar tudo que tem de valor ",
+      "falaAtaque": "tenho um pecado!! meter bala em vacilão hahaha",
+      "falaDerrota": "Você... não pode ser real! Como me derrotou?"
+    },
+    {
+      "id": "npc_003",
+      "nome": "Morgan mão de machado",
+      "vida": 500,
+      "dano": 30,
+      "descricao": "Um baderneiro que invade villas pra roubar ",
+      "xpfruit": 50,
+      "anti": "",
+      "habilidades": [
+        {
+          "nome": "corte lateral",
+          "descricao": "lança um corte na lateral no corpo do inimigo",
+          "tipo": "ofensiva",
+          "dano": 60,
+          "custoStamina": 15,
+          "cooldown": 1,
+          "stun": 0
+        },
+         {
+          "nome": "peso pesado",
+          "descricao": "bate com o machado com força no chão lhe lançando uma onda de choque",
+          "tipo": "ofensiva",
+          "dano": 75,
+          "custoStamina": 25,
+          "cooldown": 2,
+          "stun": 0
+        }
+      ],
+      "recompensa": {
+        "xp": 30,
+        "berries": 60
+      },
+      "questId": "quest_003",
+      "falaInicio": "repare-se para ser derrotado!!",
+      "falaAtaque": "hahaha",
+      "falaDerrota": "como ousa me enfrentar?"
+    }
+  ]
+}

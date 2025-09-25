@@ -1,0 +1,55 @@
+{
+  "equipamentos": [
+    {
+      "id": "equipamento_001",
+      "nome": "Armadura de Ferro",
+      "categoria": "equipamento",
+      "raridade": "rara",
+      "loja" : true,
+      "bonus": {
+        "forca": 10,
+        "resistencia": 30,
+        "vida": 200
+      },
+      "descricao": "Uma armadura feita de ferro resistente, oferecendo boa proteção.",
+      "preco": 3000,
+      "durabilidade": 100,
+      "durabilidadeMax": 100,
+      "nivel": 1,
+      "nivelMax": 5
+    },
+    {
+      "id": "equipamento_002",
+      "nome": "Capacete do Imperador",
+      "categoria": "equipamento",
+      "raridade": "lendária",
+      "bonus": {
+        "forca": 20,
+        "resistencia": 50,
+        "vida": 300,
+        "berries": 20
+      },
+      "descricao": "Capacete que aumenta a resistência e concede bônus de berries.",
+      "preco": 8000,
+      "durabilidade": 100,
+      "durabilidadeMax": 100,
+      "nivel": 1,
+      "nivelMax": 5
+    },
+    {
+      "id": "equipamento_003",
+      "nome": "Botas Rápidas",
+      "categoria": "equipamento",
+      "raridade": "comum",
+      "bonus": {
+        "velocidade": 15
+      },
+      "descricao": "Botas que aumentam a velocidade do usuário.",
+      "preco": 1500,
+      "durabilidade": 80,
+      "durabilidadeMax": 80,
+      "nivel": 1,
+      "nivelMax": 3
+    }
+  ]
+}

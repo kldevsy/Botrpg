@@ -1,0 +1,126 @@
+{
+  "espadas": [
+    {
+      "id": "espada_001",
+      "nome": "katana",
+      "categoria": "espada",
+      "raridade": "comum",
+      "dano": 20,
+      "loja": true,
+      "habilidades": [
+        {
+          "nome": "Corte Supremo",
+          "descricao": "Corte extremamente poderoso que causa dano massivo.",
+          "tipo": "ofensiva",
+          "dano": 10,
+          "tipo": "espada",
+          "custoStamina": 15,
+          "cooldown": 2,
+          "stun": false
+        }
+      ],
+      "bonus": {},
+      "descricao": "Uma katana simples.",
+      "preco": 50,
+      "durabilidade": 100,
+      "durabilidadeMax": 100,
+      "nivel": 1,
+      "nivelMax": 1,
+      "custo": 35
+    },
+    {
+      "id": "pole_v1",
+      "nome": "Nonosama Bō(cajado dourado)",
+      "categoria": "espada",
+      "raridade": "lendária",
+      "dano": 75,
+      "loja": false,
+      "habilidades": [
+        {
+          "nome": "Kari (Luz Elétrica)",
+          "descricao": "Você Super aquece o ar ao seu redor , expandindo-o com a velocidade do som e criando um trovão, usado para neutralizar ataques não materiais.  .",
+          "tipo": "ofensiva",
+          "dano": 160,
+          "tipo": "espada",
+          "custoStamina": 20,
+          "cooldown": 3,
+          "stun": false
+        }
+      ],
+      "bonus": {},
+      "descricao": "Um bastão dourado com atributos de eletricidades",
+      "preco": 5000,
+      "durabilidade": 100,
+      "durabilidadeMax": 100,
+      "nivel": 1,
+      "nivelmax": 10,
+      "custo": 120
+    },
+    {
+      "id": "espada_002",
+      "nome": "cutelo",
+      "categoria": "espada",
+      "raridade": "rara",
+      "dano": 25,
+      "loja": true,
+      "tipo": "espada",
+      "habilidades": [
+        {
+          "nome": "corte de ar",
+          "descricao": "lança um corte de ar com o balaço do culeto",
+          "tipo": "ofensiva",
+          "dano": 25,
+          "custoStamina": 15,
+          "cooldown": 2,
+          "stun": true
+        }
+      ],
+      "bonus": {},
+      "descricao": "uma espada simples com um corte mais elevado.",
+      "preco": 150,
+      "durabilidade": 75,
+      "durabilidadeMax": 75,
+      "nivel": 1,
+      "nivelMax": 5,
+      "custo": 65
+    },
+    {
+      "id": "espada_003",
+      "nome": "katana dupla",
+      "categoria": "espada",
+      "raridade": "comum",
+      "dano": 35,
+      "loja": true,
+      "habilidades": [
+        {
+          "nome": "Corte silencioso",
+          "descricao": "ataque que corta o inimigo sem ele perceber.",
+          "tipo": "ofensiva",
+          "dano": 40,
+          "tipo": "espada",
+          "custoStamina": 18,
+          "cooldown": 2,
+          "stun": false
+        },
+        {
+          "nome": "Corte duplo",
+          "descricao": "corta o inimigo duas vezes com mesmo movimento de ataque.",
+          "tipo": "ofensiva",
+          "dano": 65,
+          "tipo": "espada",
+          "custoStamina": 18,
+          "cooldown": 2,
+          "stun": false
+        }
+      ],
+      "bonus": {},
+      "descricao": "se uma katana fazia estrago imagina duas!!",
+      "preco": 500,
+      "durabilidade": 100,
+      "durabilidadeMax": 100,
+      "nivel": 1,
+      "nivelMax": 7,
+      "custo": 80
+    }
+  ]
+}
